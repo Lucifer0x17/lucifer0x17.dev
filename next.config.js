@@ -4,11 +4,11 @@ module.exports = withNextra({
         return [
             {
                 source: "/blogs",
-                destination: "https://blog.lucifer0x17.dev",
+                destination: "https://blog.lucifer0x17.dev/blogs/",
             },
             {
                 source: "/blogs/:path*",
-                destination: "https://blog.lucifer0x17.dev/:path*",
+                destination: "https://blog.lucifer0x17.dev/blogs/:path*",
             },
         ];
     },
